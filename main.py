@@ -21,7 +21,6 @@ def win():
 
     elif int(comp_score)==3 and int(user_score) < int(comp_score):
         window.lineEdit_3.setText("🎉COMPUTER WIN🎉")
-        QMessageBox.information("Information" , "Game is finished")
         msg_box=QMessageBox()
         msg_box.setText("play again?")
         msg_box.exec()
